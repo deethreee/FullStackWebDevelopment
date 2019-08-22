@@ -1,0 +1,159 @@
+body {
+	font-size: 16px;
+	font-family: 'Capriola', sans-serif;
+}
+
+/*Header start*/
+#header-nav {
+	background-color: #939CAF;
+	border-top: 1px solid #9CFBE8;
+	border-bottom: 2px solid #9CFBE8;
+}
+
+#header-nav > div {
+	height: 73px;
+}
+
+.navbar-brand h1 {
+	font-family: 'Capriola', sans-serif;
+	color: #440DEE;
+	text-shadow: 1px 1px 1px #222;
+	padding-left: 10px;
+	margin-top: 10px;
+	line-height: .75;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+	text-decoration: none;
+}
+
+div.navbar-collapse {
+	border-top: #939CAF;
+}
+
+#navbar-list {
+	background-color: #9CFBE8;
+	margin-top: 2.5px;
+}
+
+#divider {
+	border-top: 1px solid #81B0E3;
+	width: 100%;
+	margin-top: -9.8px;
+	margin-bottom: 10px;
+}
+
+#navbar-list a {
+  color: #D33FC1;
+  font-size: 1.2em;
+  text-align: center;
+}
+
+#navbar-list a:hover {
+  background: #81E3AA;
+}
+
+#menu-button {
+	margin-top: 13px;
+	height: 43px;
+	width: 43px;
+	border: 2px solid #D33FC1;
+}
+
+.navbar-header button.navbar-toggle .icon-bar {
+	height: 4.5px;
+	margin-top: -0.5px;
+	margin-left: -1px;
+	margin-bottom: 5px;
+	background-color: #D33FC1 ;
+}
+/*Header end*/
+
+/*Page Content start*/
+#page-title {
+	font-size: 28.8px;
+	margin-top:110px;
+	margin-bottom: 25px;
+}
+
+#box {
+	position: relative;
+	float: left;
+}
+
+.food-name {
+	position: absolute;
+	margin-top: 10px;
+	padding: 4px 8px 4px 8px;
+	left: 52%;
+	margin-left: -50px;
+	font-size: 1.2em;
+	font-weight: bold;
+}
+
+#content {
+	background-color: #A0A5C6;
+	text-align: left;
+	margin-right: 10px;
+	margin-left: 10px;
+	padding: 50px 12px 15px 12px;
+}
+
+#p1 {
+	color: #862d2d;
+	background-color: #ff8080;
+}
+
+#p2 {
+	color: #ffff99;
+	background-color: #cc6600;
+}
+
+#p3 {
+	color: #cc0099;
+	background-color: #ff99bb;
+}
+/*Page Content end*/
+
+/*For extra small devices only*/
+@media (max-width: 767px) {
+	#header-nav > div {
+		height: 60px;
+	}
+	.navbar-brand h1 {
+		font-size: 5vw;
+		margin-top: 6px;
+	}
+	#page-title {
+		font-size: 4.7vw;
+	}
+}
+
+/*For even smaller devices only*/
+@media (max-width: 540px) {
+	.navbar-brand h1 {
+		font-size: 6vw;
+		margin-top: 5px;
+	}
+	#page-title {
+		font-size: 5.6vw;
+	}	
+}
+@media (max-width: 412px) {
+	.navbar-brand h1 {
+		font-size: 7vw;
+		margin-top: 7px;
+	}
+	#page-title {
+		font-size: 7vw;
+	}	
+}	
+@media (max-width: 360px) {
+	.navbar-brand h1 {
+		font-size: 7.5vw;
+		margin-top: 8px;
+	}
+	#page-title {
+		font-size: 7vw;
+	}	
+}	
